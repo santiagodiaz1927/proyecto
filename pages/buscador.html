@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Servicios | Plataforma de Servicios Sociales</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Plataforma de Servicios Sociales</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="buscador.html">Buscar servicios</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="login.html">Iniciar sesión</a></li>
+        <li><a href="registro.html">Registrarse</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Buscar Servicios</h2>
+
+      <form>
+        <label for="busqueda">Buscar por palabra clave:</label><br>
+        <input type="text" id="busqueda" name="busqueda"><br><br>
+
+        <label for="categoria">Categoría:</label><br>
+        <select id="categoria" name="categoria">
+          <option value="salud">Salud</option>
+          <option value="educacion">Educación</option>
+          <option value="vivienda">Vivienda</option>
+          <option value="empleo">Empleo</option>
+        </select><br><br>
+
+        <label for="ubicacion">Ubicación:</label><br>
+        <input type="text" id="ubicacion" name="ubicacion" placeholder="Ciudad o barrio"><br><br>
+
+        <button type="submit">Buscar</button>
+      </form>
+
+      <h3>Resultados</h3>
+      <ul>
+        <li><a href="categoria.html">Ver servicios de Salud</a></li>
+        <li><a href="categoria.html">Ver servicios de Educación</a></li>
+        <li><a href="categoria.html">Ver servicios de Vivienda</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Plataforma de Servicios Sociales</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
